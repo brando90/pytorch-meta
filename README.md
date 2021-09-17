@@ -3,6 +3,13 @@
 
 A collection of extensions and data-loaders for few-shot learning & meta-learning in [PyTorch](https://pytorch.org/). Torchmeta contains popular meta-learning benchmarks, fully compatible with both [`torchvision`](https://pytorch.org/docs/stable/torchvision/index.html) and PyTorch's [`DataLoader`](https://pytorch.org/docs/stable/data.html#torch.utils.data.DataLoader).
 
+# Install
+
+Try this install
+```
+pip install -U git+https://github.com/brando90/pytorch-meta.git
+```
+
 #### Features
   - A unified interface for both few-shot classification and regression problems, to allow easy benchmarking on multiple problems and reproducibility.
   - Helper functions for some popular problems, with default arguments from the literature.
